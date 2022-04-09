@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="hr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cookie Cliker</title>
+        <link rel="stylesheet" href="styles/style.css" />
+        <script src="scripts/CookieGame.js"></script>
+    </head>
+
+    <body>
+        <div class="cookie--wrapper">
+            <div class="cookie--wrapper-row">
+                <button class="btn--start box-style">START</button>
+            </div>
+            <div class="cookie--wrapper-row">
+                <div class="timer--wrapper box-style">
+                    <span id="timer">10</span> seconds!
+                </div>
+            </div>
+            <div class="cookie--wrapper-row">
+                <div class="cookie--image-wrapper box-style">
+                    <span id="click-count">0</span>
+                    <img src="images/cookie.png" id="img---cookie" />
+                </div>
+            </div>
+        </div>
+        <div class="highscore--wrapper box-style">
+            <div class="highscore--wrapper-row">
+                <h3>HIGHSCORES:</h3>
+            </div>
+            <div class="highscore--list-wrapper">
+                <ol class="highscore--list"></ol>
+            </div>
+        </div>
+    </body>
+
+
+</html>
