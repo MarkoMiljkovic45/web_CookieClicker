@@ -62,7 +62,7 @@ body > * {
     color: #0070FF;
 }
 
-#img-cookie:active {
+#img--cookie:active {
     width: 220px;
     height: 220px;
 }
